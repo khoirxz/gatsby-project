@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b42af97a-cdab-4084-9152-cc039dee667d/deploy-status)](https://app.netlify.com/sites/gifted-kirch-4c527f/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
