@@ -19,7 +19,6 @@ function Navbar() {
       <h1>{title}</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/info">Informasi</Link>
         <Link to="/products">Produk & Jasa</Link>
         <Link to="/about">About Us</Link>
       </div>
