@@ -17,8 +17,10 @@ function Products({ data }) {
             <Link to={"/products/" + product.frontmatter.slug} key={product.id}>
               <div className="info-product">
                 <Img fluid={product.frontmatter.thumb.childImageSharp.fluid} />
-                <h3>{product.frontmatter.title}</h3>
-                <p>{product.frontmatter.stack}</p>
+                <div className="detail-description">
+                  <h3>{product.frontmatter.title}</h3>
+                  <p>{product.frontmatter.stack}</p>
+                </div>
               </div>
             </Link>
           ))}
