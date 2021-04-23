@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 export default function Home({ data }) {
   return (
     <Layout>
-      <section className={styles.header}>
+      <section>
         <div>
           <h2>Toko Developer</h2>
           <h3>Beli kode ?</h3>
@@ -16,9 +16,7 @@ export default function Home({ data }) {
               😃
             </span>
           </h3>
-          <Link className={styles.btn} to="/products">
-            Cari
-          </Link>
+          <Link to="/products">Cari</Link>
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
