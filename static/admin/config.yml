@@ -18,6 +18,8 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Thumbmail", name: "thumb", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Stack", name: "strack", widget: "string" }
+      - { label: "Stack", name: "stack", widget: "string" }
+      - { label: "Featured Image", name: "featuredImg", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
