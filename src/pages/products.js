@@ -12,12 +12,10 @@ function Products({ data }) {
   return (
     <Layout>
       <div>
-        <h1>Product page</h1>
-        <p>say hello to The new page</p>
-        <div>
+        <div className="products">
           {products.map(product => (
             <Link to={"/products/" + product.frontmatter.slug} key={product.id}>
-              <div>
+              <div className="info-product">
                 <Img fluid={product.frontmatter.thumb.childImageSharp.fluid} />
                 <h3>{product.frontmatter.title}</h3>
                 <p>{product.frontmatter.stack}</p>
@@ -25,7 +23,10 @@ function Products({ data }) {
             </Link>
           ))}
         </div>
-        <p>suka apa yang saya buat ? hubungi saya di {kontak}</p>
+
+        <p className="footer-product">
+          suka apa yang saya buat ? hubungi saya di {kontak}
+        </p>
       </div>
     </Layout>
   )

@@ -11,7 +11,7 @@ collections:
     folder: "src/products"
     create: true
     slug: "index"
-    media_folder: "src/images/featured"
+    media_folder: "../images/featured"
     public_folder: ""
     path: "{{title}}/index"
     editor:
