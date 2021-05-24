@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-import "../styles/single.css"
+// import "../styles/single.css"
 
 function ProductDetails({ data }) {
   const { html } = data.markdownRemark

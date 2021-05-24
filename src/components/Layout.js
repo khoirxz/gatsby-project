@@ -1,15 +1,13 @@
 import React from "react"
 import Navbar from "./Navbar"
-import "../styles/global.css"
+import Footer from "./Footer"
 
 function Layout({ children }) {
   return (
-    <div className="layout">
+    <div className="layou bg-base">
       <Navbar />
       <div className="content">{children}</div>
-      <footer>
-        <p>Toko Developer</p>
-      </footer>
+      <Footer />
     </div>
   )
 }

@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-netlify-cms",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -27,9 +28,10 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Toko Developer",
-    description: "Beli aplikasi untuk kebutuhan anda",
-    copyright: "2021 copyright toko dev",
+    title: "Beli Makan",
+    description: "Perut kenyang, hatipun senang",
+    copyright: "2021 copyright Beli Makan",
     contact: "khoirrurrohman@gmail.com",
+    address: "Jl. Pahlawan, Lowokwaru, Malang, East Java, Indonesia",
   },
 }

@@ -2,7 +2,7 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
-import "../styles/products.css"
+// import "../styles/products.css"
 
 function Products({ data }) {
   console.log(data)
