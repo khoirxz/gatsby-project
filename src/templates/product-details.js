@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
-// import "../styles/single.css"
 
 function ProductDetails({ data }) {
   const { html } = data.markdownRemark
@@ -10,11 +9,14 @@ function ProductDetails({ data }) {
 
   return (
     <Layout>
-      <div className="single-container">
-        <h2>{title}</h2>
-        <h3>{stack}</h3>
+      <div className="xs:w-11/12 lg:w-4/5 my-20 m-auto font-display">
+        <h2 className="text-5xl font-bold mb-5">{title}</h2>
+        <h3 className="mb-5 font-light text-lg">{stack}</h3>
         <div className="image-container-single">
-          <Img fluid={featuredImg.childImageSharp.fluid} />
+          <Img
+            fluid={featuredImg.childImageSharp.fluid}
+            className="lg:w-96 lg:h-96 mx-auto rounded-3xl mb-10"
+          />
         </div>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>

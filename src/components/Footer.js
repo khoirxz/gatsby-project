@@ -38,7 +38,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="text-center font-bold xs:text-xs lg:text-sm pt-5">
+        <div className="text-center font-bold xs:text-xs lg:text-sm pt-5 text-primary">
           {copyright}
         </div>
       </footer>

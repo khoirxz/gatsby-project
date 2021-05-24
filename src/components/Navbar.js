@@ -53,7 +53,7 @@ function Navbar() {
       {/* navbar dropdown */}
       <div
         className={
-          "lg:hidden items-center w-full bg-base shadow-sm m-auto absolute flex-col" +
+          "lg:hidden items-center w-full bg-base shadow-sm m-auto absolute flex-col z-50" +
           (navbarOpen ? " flex" : " hidden")
         }
       >

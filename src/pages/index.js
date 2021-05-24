@@ -1,6 +1,7 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
+import { Frame } from "framer"
 import Img from "gatsby-image"
 
 export default function Home({ data }) {
@@ -26,6 +27,7 @@ export default function Home({ data }) {
             <Link to="/products">Cari</Link>
           </button>
         </div>
+
         <Img
           fluid={data.file.childImageSharp.fluid}
           className="lg:w-96 lg:h-96 xs:w-56 xs:h-56 ml-auto mr-auto lg:mt-20 xs:mt-0"

@@ -7,9 +7,18 @@ import Img from "gatsby-image"
 function About({ data }) {
   return (
     <Layout>
-      <div className="about-page">
-        <h1>About page</h1>
-        <Img fluid={data.file.childImageSharp.fluid} />
+      <div className="w-full my-10">
+        <Img
+          fluid={data.file.childImageSharp.fluid}
+          className="w-36 h-36 rounded-full mx-auto z-0"
+        />
+        <div className="w-3/5 m-auto px-5 py-3 bg-white rounded-2xl">
+          <h1 className="font-semibold text-lg">
+            Halo perkenalkan saya{" "}
+            <span className="uppercase text-primary">rizqi</span> !
+          </h1>
+          <p>ini adalah project sedehana saya untuk tugas kuliah.</p>
+        </div>
       </div>
     </Layout>
   )
